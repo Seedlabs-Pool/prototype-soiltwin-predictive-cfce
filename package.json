@@ -1,0 +1,21 @@
+{
+  "name": "prototype",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "lint": "tsc --noEmit",
+    "start": "node server.mjs"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.0.2",
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "typescript": "^5.7.2",
+    "vite": "^8.0.16"
+  }
+}
